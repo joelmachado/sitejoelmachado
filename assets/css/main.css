@@ -3266,7 +3266,7 @@
 				}
 
 		}
-		
+
 /*----------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /* offset-x > | offset-y ^| blur-radius | spread-radius | color */
@@ -3388,7 +3388,7 @@
   width: 28px;
   height: 28px;
   margin: 0px 0px 15px 0px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   border: none;
   outline: none;
   cursor: pointer;
@@ -3407,7 +3407,7 @@
   align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+ /* border-radius: 50%;*/
   background-color: #ffffff;
   margin: 0px 0px 0px 5px;
   border: none;
