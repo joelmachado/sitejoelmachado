@@ -33,6 +33,9 @@ popupWhatsApp = () => {
 	setTimeout(() => {
 	  popup.classList.toggle('is-active-whatsapp-popup');
 	}, 3000);
+
+	gtag_report_conversion("https://www.joelmachado.com.br");
+	
   }
 
 (function($) {

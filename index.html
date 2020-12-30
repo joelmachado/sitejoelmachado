@@ -45,6 +45,36 @@
 		  gtag('config', 'G-G5LWTHFMH1');
 		</script>
 
+		<!-- Global site tag (gtag.js) - Google Ads: 861721838 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-861721838"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-861721838');
+		</script>
+
+		<!-- Event snippet for Contato conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+			function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+				window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-861721838/LksgCN6Dne8BEO6p85oD',
+				'event_callback': callback
+			});
+			return false;
+			}
+			</script>
+	
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	</head>
 	<body class="landing">
 
@@ -202,8 +232,7 @@
 		<!-- Scripts -->
 
 
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+
 
 <div class="nav-bottom">
             <div class="popup-whatsapp fadeIn">
