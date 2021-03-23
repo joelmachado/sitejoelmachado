@@ -2830,7 +2830,7 @@
 				#header nav ul li {
 					border-radius: 4px;
 					display: inline-block;
-					margin-left: 2.5em;
+					margin-left: 2em;
 					padding-left: 0;
 				}
 
@@ -2839,10 +2839,12 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #666;
+						color: #fff;
 						display: inline-block;
 						text-decoration: none;
-					}
+						font-weight: bold !important;
+						font-size: 16px !important;
+						}
 
 						#header nav ul li a:hover {
 							color: #484848;
@@ -2863,6 +2865,9 @@
 						top: -0.075em;
 						vertical-align: middle;
 					}
+
+					.single ul li a, .single ul li a:visited { color: #484848 !important;}
+					.single ul li a:hover { color: #999 !important;}
 
 		#header .container {
 			position: relative;
@@ -2965,6 +2970,9 @@
 			top: 0.5em;
 			width: 3.5em;
 		}
+
+	
+
 
 	#navPanel {
 		-moz-transform: translateX(-20em);
