@@ -6,7 +6,7 @@
 
 
 
-popupWhatsApp = () => {
+/*popupWhatsApp = () => {
   
 	let btnClosePopup = document.querySelector('.closePopup');
 	let btnOpenPopup = document.querySelector('.whatsapp-button');
@@ -36,7 +36,7 @@ popupWhatsApp = () => {
 
 	gtag_report_conversion("https://www.joelmachado.com.br");
 	
-  }
+  }*/
 
 (function($) {
 
@@ -105,7 +105,7 @@ popupWhatsApp = () => {
 	});
 
 	 
-	popupWhatsApp();
+	//popupWhatsApp();
 
 })(jQuery);
 
